@@ -1,7 +1,7 @@
 import {ApiError} from "../../utils/api-error.js";
-import {APiResponse} from "../../utils/api-response.js";
 import {asyncHandler} from "../../utils/asyncHandler.js";
 import prisma from "../../db/dbConnect.js";
+import {APiResponse} from "../../utils/api-response.js";
 
 export const addMovie = asyncHandler(async (req, res) => {
   const {title, type, director, budget, location, duration, year, userId} =
@@ -96,8 +96,8 @@ export const updateMovieList = asyncHandler(async (req, res) => {
   });
 
   return res
-    .status(200)
-    .json(new ApiResponse(200, updatedMovie, "Movie updated successfully"));
+    .status(201)
+    .json(new APiResponse(200, updatedMovie, "Movie updated successfully."));
 });
 
 export const deleteMovie = asyncHandler(async (req, res) => {
@@ -122,6 +122,6 @@ export const deleteMovie = asyncHandler(async (req, res) => {
   });
 
   return res
-    .status(200)
-    .json(new ApiResponse(200, null, "Movie deleted successfully"));
+    .status(201)
+    .json(new APiResponse(200, null, "Movie deleted successfully."));
 });
