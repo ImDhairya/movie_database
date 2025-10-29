@@ -46,12 +46,14 @@ npx prisma generate
 npm run dev
 
 📦 API Endpoints
+
 🎥 Movies
 Method Endpoint Description
 POST /api/entries Add a new movie
 GET /api/entries?page=1&limit=10 Get paginated movies
 PATCH /api/entries/:id Update a movie
 DELETE /api/entries/:id Delete a movie
+
 👤 Users
 Method Endpoint Description
 POST /api/users Register a new user

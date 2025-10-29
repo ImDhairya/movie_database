@@ -1,0 +1,76 @@
+{
+    "movies": [
+      {
+        "id": 3,
+        "title": "The best movie",
+        "type": "Movie",
+        "director": "Dhairya Pandya",
+        "budget": 2500000,
+        "location": "New Yourk",
+        "duration": 3,
+        "year": 2025,
+        "createdAt": "2025-10-29T15:44:45.912Z",
+        "userId": 1
+      },
+      {
+        "id": 4,
+        "title": "The best movie",
+        "type": "Movie",
+        "director": "Dhairya Pandya",
+        "budget": 2500000,
+        "location": "New Yourk",
+        "duration": 3,
+        "year": 2025,
+        "createdAt": "2025-10-29T15:44:47.872Z",
+        "userId": 1
+      },
+      {
+        "id": 5,
+        "title": "The best movie",
+        "type": "Movie",
+        "director": "Dhairya Pandya",
+        "budget": 2500000,
+        "location": "New Yourk",
+        "duration": 3,
+        "year": 2025,
+        "createdAt": "2025-10-29T15:44:49.039Z",
+        "userId": 1
+      },
+      {
+        "id": 6,
+        "title": "The best movie",
+        "type": "Movie",
+        "director": "Dhairya Pandya",
+        "budget": 2500000,
+        "location": "New Yourk",
+        "duration": 3,
+        "year": 2025,
+        "createdAt": "2025-10-29T15:44:49.857Z",
+        "userId": 1
+      },
+      {
+        "id": 7,
+        "title": "The best movie",
+        "type": "Movie",
+        "director": "Dhairya Pandya",
+        "budget": 2500000,
+        "location": "New Yourk",
+        "duration": 3,
+        "year": 2025,
+        "createdAt": "2025-10-29T15:44:50.852Z",
+        "userId": 1
+      },
+      {
+        "id": 8,
+        "title": "The best movie",
+        "type": "Movie",
+        "director": "Dhairya Pandya",
+        "budget": 2500000,
+        "location": "New Yourk",
+        "duration": 3,
+        "year": 2025,
+        "createdAt": "2025-10-29T15:44:51.762Z",
+        "userId": 1
+      }
+    ]
+}
